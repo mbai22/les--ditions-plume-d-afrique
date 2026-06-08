@@ -158,7 +158,6 @@ ul {
 }
 
 .section-light .service-list li,
-.section-light .book-cat,
 .section-light .actu-category,
 .section-light .footer-bottom p,
 .section-light .newsletter-note {
@@ -191,10 +190,6 @@ ul {
 .section-light .form-checkbox label,
 .section-light .newsletter-content p {
   color: var(--text-dark-secondary);
-}
-
-.section-light .book-front {
-  background: rgba(16, 188, 255, 0.06);
 }
 
 .section-light .auteur-card p {
@@ -923,45 +918,19 @@ ul {
   box-shadow: var(--shadow-card);
 }
 
-.book-cover {
+.book-cover-img {
   position: relative;
-  display: flex;
-}
-
-.book-spine {
-  width: 12px;
-  background: var(--main);
-  border-radius: 4px 0 0 4px;
+  overflow: hidden;
+  border-radius: var(--radius-sm) 0 0 var(--radius-sm);
   min-height: 220px;
 }
 
-.book-front {
-  flex: 1;
-  padding: 32px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(16, 188, 255, 0.08);
-  min-height: 220px;
-}
-
-.book-front-inner {
-  text-align: center;
-}
-
-.book-front-inner i {
-  font-size: 2.5rem;
-  color: var(--main);
-  opacity: 0.5;
-  margin-bottom: 12px;
-}
-
-.book-cat {
-  display: block;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: var(--text-muted);
+.book-cover-img-src {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
 }
 
 .book-info {
