@@ -455,37 +455,14 @@ ul {
   gap: 12px;
 }
 
-.logo-icon {
-  width: 42px;
-  height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--main);
-  border-radius: 50%;
-  color: #FFFFFF;
-  font-size: 1.1rem;
+.logo-img {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
 }
 
-.logo-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo-title {
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  line-height: 1.2;
-}
-
-.logo-sub {
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: var(--main);
-  font-weight: 500;
+.logo-img-footer {
+  height: 50px;
 }
 
 .nav-list {
