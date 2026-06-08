@@ -552,8 +552,8 @@ ul {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: url('../images/hero-bg.svg') center/cover no-repeat;
-  opacity: 0.4;
+  background: url('../images/hero-bg.jpg') center/cover no-repeat;
+  opacity: 0.6;
   z-index: 1;
 }
 
@@ -562,7 +562,7 @@ ul {
   position: absolute;
   inset: 0;
   background:
-    rgba(36, 42, 100, 0.7);
+    rgba(36, 42, 100, 0.75);
   z-index: 1;
 }
 
